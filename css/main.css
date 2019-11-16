@@ -44,7 +44,6 @@
 
 
 
-
 		/* check it out! your first print-based media queries! */
 		/* ↑↑↑↑↑↑ put all your css above these lines ↑↑↑↑↑ */
 
@@ -59,6 +58,11 @@
 			#page {
 				border:0;
 				transform:scale(1)!important;
+				-webkit-filter: grayscale(100%);
+			    -moz-filter: grayscale(100%);
+			    -ms-filter: grayscale(100%);
+			    -o-filter: grayscale(100%);
+			    filter: gray; /* IE 6-9 */
 			}
 
 			#instructions {
